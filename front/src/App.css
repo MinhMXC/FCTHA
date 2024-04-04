@@ -1,0 +1,47 @@
+
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#outlet {
+  width: 600px;
+}
+
+#nav-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: yellow;
+  padding-top: 5px;
+}
+
+.nav-button {
+  background-color: rgba(0, 0, 0, 0);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  width: 200px;
+  font-size: 25px;
+  border-color: black;
+  padding-bottom: 5px;
+}
+
+.error-text {
+  white-space: pre-line;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-self: start;
+}
